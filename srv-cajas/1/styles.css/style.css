@@ -1,0 +1,98 @@
+body{
+    border: 1px solid blue;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+div{
+    width: 80vw;
+    height: 95vh;
+    margin: 0 auto;
+    border: 1px solid lightseagreen;
+}
+header{
+    position: relative;
+    width: 80vw;
+    height: 20vh;
+    background-color: brown;
+}
+nav{
+    position: absolute;
+    color: white;
+    bottom: 0;
+    right: 0;
+    background-color:darkseagreen;
+}
+li{
+    display: inline;
+    list-style: none;
+}
+.contenedor{
+    position: relative;
+    width: 80vw;
+    height: 60vh;
+    background-color:lightskyblue;
+    box-sizing: border-box;
+}
+section{
+    position: absolute;
+    bottom: 1cm;
+    left: 10px;
+    width: 40vw;
+    height: 55vh;
+    background-color: rgb(178, 238, 218);
+    box-sizing: border-box;
+}
+.c1{
+    width: 30vw;
+    height: 18vh;
+    background-color: gray;
+}
+.c2{
+    width: 30vw;
+    height: 18vh;
+    background-color: gray;
+}
+.c3{
+    width: 30vw;
+    height: 18vh;
+    background-color: gray;
+}
+aside{
+    position: absolute;
+    box-sizing: border-box;
+    width: 20vw;
+    height: 60vh;
+    right: 1px;
+    background-color: orange;
+}
+.conten{
+    box-sizing: border-box;
+    height: 58vh;
+    width: 18vw;
+}
+.c4{
+    width: 30vw;
+    height: 14vh;
+    background-color:coral;
+}
+.c5{
+    width: 30vw;
+    height: 14vh;
+    background-color:coral;
+}
+.c6{
+    width: 30vw;
+    height: 14vh;
+    background-color:coral;
+}
+.c7{
+    width: 30vw;
+    height: 14vh;
+    background-color:coral;
+}
+footer{
+    width: 80vw;
+    height: 15vh;
+    background-color: darkorchid;
+}

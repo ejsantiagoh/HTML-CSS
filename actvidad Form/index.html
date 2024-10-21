@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro - Mi web</title>
+    <link rel="stylesheet" href="styles\style.css">
+</head>
+
+<body>
+    <form action="" method="get" class="form">
+        <fieldset>
+            <legend>Registro - Mi Web</legend>
+            <br>
+            <label for="nombre">Nombre:</label>
+            <input class="ctrl" type="text" name="nombre" id="nombre" maxlength="50">
+            <br><br>
+            <label for="apellidos">Apellidos:</label>
+            <input class="ctrl" type="text" name="apellidos" id="apellidos" maxlength="50">
+            <br><br>
+            <label for="sexo">Sexo:</label>
+            <input  type="radio" name="sexo" id="sexo" value="hombre"> Hombre
+            <input  type="radio" name="sexo" id="sexo" value="mujer"> Mujer
+            <br><br>
+            <label for="email">Correo electronico:</label>
+            <input class="ctrl" type="email" name="email" id="email">
+            <br><br>
+            <label for="poblacion">Población:</label>
+            <select name="poblacion" id="poblacion">
+                <option value="Bucaramanga" selected>Bucaramanga</option>
+                <option value="Floridablanca">Floridablanca</option>
+                <option value="piedecuesta">Piedecuesta</option>
+                <option value="giron">Girón</option>
+                </select>
+            <br><br>
+            <label for="descripcion">Descripción:</label><br>
+            <textarea id="descripcion" name="descripcion" rows="5" cols="50"></textarea>
+            <br><br>
+            <label class="labelcheck" for="opcion1">Deseo recibir información sobre novedades y ofertas</label>
+            <input  type="checkbox" name="opcion1" value="opcion1" checked>
+            <br><br>
+            <label class="labelcheck" for="opcion2">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos.</label>
+            <input  type="checkbox" name="opcion2" value="opcion2">
+            <br><br>
+            <input class="button" type="submit" value="Registrar">
+        </fieldset>
+    </form>
+</body>
+
+</html>

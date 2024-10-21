@@ -1,0 +1,39 @@
+body{
+    border: 1px solid lightcoral;
+    margin: 2px;
+}
+div{
+    margin: 20px;
+    padding: 30px;
+    border: 5px solid red;
+}
+header section{
+    padding: 10px;
+    border:4px solid green;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50%;
+    text-shadow:yellow 4px 4px;
+}
+.c2{
+    padding: 10px;
+    border: 4px solid blue;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.c3{
+    padding: 10px;
+    border: 4px solid orange;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    text-shadow: yellow 4px 4px;
+}
+p{
+    text-shadow:yellow 4px 4px;
+}

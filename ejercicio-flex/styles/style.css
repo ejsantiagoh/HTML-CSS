@@ -1,0 +1,17 @@
+.principal{
+    background-color: lightcoral;
+    width: 95vw;
+    height: 80vh;
+    display: flex;
+}
+div{
+    background-color: aquamarine;
+    flex-direction: row;
+    width: 15vw;
+    height: 50vh;
+    margin: 2px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}

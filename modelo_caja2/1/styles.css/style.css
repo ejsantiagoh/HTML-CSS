@@ -1,0 +1,14 @@
+nav{
+    background-color: #d6afdc;
+    color: white;
+    padding: 10px;
+}
+li{
+    list-style: none;
+    padding: 5px;
+    display: inline;
+}
+li:hover{
+    cursor: pointer;
+    background-color: blue;
+}
